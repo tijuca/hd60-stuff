@@ -582,7 +582,7 @@ struct dmx_demux {
 	int (*get_pes_pids)(struct dmx_demux *demux, u16 *pids);
 
 	/* private: Not used upstream and never documented */
-#if 0
+#if 1
 	int (*get_caps)(struct dmx_demux *demux, struct dmx_caps *caps);
 	int (*set_source)(struct dmx_demux *demux, const dmx_source_t *src);
 #endif
