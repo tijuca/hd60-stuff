@@ -59,7 +59,7 @@ static int __init parse_chiptrim(const struct tag *tag, void *fdt)
 	int ix;
 	int ret;
 	int node;
-	char buf[12];
+	char buf[20];
 
 	if (tag->hdr.size <= (sizeof(struct tag_header) >> 2)) {
 		pr_err("%s: bad tag format.\n", __func__);

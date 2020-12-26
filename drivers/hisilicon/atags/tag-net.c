@@ -91,7 +91,7 @@ static int __init parse_phyintf(const struct tag *tag, void *fdt)
 {
 	int err;
 	int node, index = 0;
-	char path[16];
+	char path[20];
 	char phy_intf[16];
 	char *str, *nxt;
 	int count;
